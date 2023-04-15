@@ -6,7 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Home from "./component/LandingPage.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+import LandingPage from "./component/LandingPage.jsx";
+
+ReactDOM.render(<LandingPage />, document.querySelector("#app")); 
